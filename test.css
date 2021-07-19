@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.container {
+    padding: 15px;
+    height: 100%;
+}
+
+#canvas {
+    border: 2px solid #000;
+}
+
+.cav-cont {
+    /* width: 40em; */
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cav-cont a{
+    width: 50%;
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cav-cont a:hover {
+    cursor: hover;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    font-size: 1.5em;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 20em;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+.show-modal {
+    top: 0em;
+    transition: top .3s ease-in;
+}
+
+.hide-modal {
+    top: -40em;
+    transition: top .3s ease-in;
+}
+
+
